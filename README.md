@@ -43,6 +43,17 @@ To get your license key, join our Discord server:
 
 > ⚠️ **Note:** License key is locked to your device (HWID). Contact admin for HWID reset if you change hardware.
 
+### ❓ Why Tier System?
+
+We implement a tier-based access system to **prevent abuse and misuse** of powerful security tools. 
+
+- 🛡️ **Prevent DDoS abuse** - DDoS & amplification modules require Root tier
+- 🔒 **Responsible disclosure** - Ensure tools are used for authorized testing only
+- ⚖️ **Accountability** - Track who has access to dangerous modules
+- 🚫 **Stop script kiddies** - Prevent unauthorized attacks on random targets
+
+> We believe in **ethical hacking**. These tools are meant for security professionals, bug bounty hunters, and authorized penetration testers only.
+
 ---
 
 ## �📊 Complete Module Reference (61 Modules)
