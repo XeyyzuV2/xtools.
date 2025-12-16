@@ -1,4 +1,4 @@
-# XTOOLS - Professional Security Toolkit v2.2
+# XTOOLS - Professional Security Toolkit v2.3
 
 **By XeyyzuV2** | **Forum**: [https://forum.html-5.me](https://forum.html-5.me)
 
@@ -15,12 +15,14 @@
 ## 🚀 Installation
 
 ```bash
-# Linux/Mac
-# in linux use this to run
+# Linux
 ./release/xtools
 
-# Windows
-xtools.exe (coming soon)
+# Windows (Coming Soon)
+xtools.exe
+
+# Manual (Development)
+pip install -r requirements.txt
 ```
 
 **Login:** `xeyyzu` / `xey2025`
@@ -119,6 +121,27 @@ xtools.exe (coming soon)
 
 ---
 
+## 🔥 New in v2.3
+
+### � Tier System
+- **Guest Tier** - Basic reconnaissance & info gathering modules
+- **User Tier** - Full access to scanning & bug bounty modules
+- **Root Tier** - Complete access including DDoS, exploits & amplification
+- **Tier-based Access Control** - Modules locked based on license tier
+- **Dynamic Menu** - Only shows accessible modules for your tier
+
+### �📦 Pre-built Binaries
+- **Linux Binary** - Just run `./release/xtools` - no Python required!
+- **Windows Binary** - `xtools.exe` (Coming Soon)
+- **Simplified Installation** - No more dependency hell
+
+### 🛠️ Improvements
+- **Faster startup** - Optimized module loading
+- **Better error handling** - More descriptive error messages
+- **Code cleanup** - Refactored core modules
+
+---
+
 ## 🔥 New in v2.2
 
 ### 🔐 HWID License System (VIP Protection)
@@ -170,7 +193,7 @@ xtools.exe (coming soon)
  ██╔██╗    ██║   ██║   ██║██║   ██║██║     ╚════██║
 ██╔╝ ██╗   ██║   ╚██████╔╝╚██████╔╝███████╗███████║
 ╚═╝  ╚═╝   ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝
-                v2.2 By XeyyzuV2
+                v2.3 By XeyyzuV2
 ```
 
 **65+ Modules | HWID Protected | Premium Security Toolkit**
