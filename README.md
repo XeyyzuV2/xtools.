@@ -29,7 +29,23 @@ pip install -r requirements.txt
 
 ---
 
-## 📊 Complete Module Reference (61 Modules)
+## � Get License Key
+
+To get your license key, join our Discord server:
+
+1. **Join Discord** - [https://discord.gg/xtools](https://discord.gg/xtools)
+2. **Open ticket** or contact admin
+3. **Choose your tier:**
+   - 🆓 **Guest** - Free (limited modules)
+   - 💎 **User** - Premium access
+   - 👑 **Root** - Full access (all modules)
+4. **Receive your key** - Format: `XTOOLS-XXXX-XXXX-XXXX`
+
+> ⚠️ **Note:** License key is locked to your device (HWID). Contact admin for HWID reset if you change hardware.
+
+---
+
+## �📊 Complete Module Reference (61 Modules)
 
 ### 🎯 Bug Bounty (21)
 | Module | Description |
