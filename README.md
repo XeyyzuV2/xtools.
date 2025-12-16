@@ -16,13 +16,11 @@
 
 ```bash
 # Linux/Mac
-chmod +x install.sh && ./install.sh
+# in linux use this to run
+./release/xtools
 
 # Windows
-install.bat
-
-# Manual
-pip install -r requirements.txt
+xtools.exe (coming soon)
 ```
 
 **Login:** `xeyyzu` / `xey2025`
