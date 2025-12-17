@@ -4,7 +4,7 @@ All notable changes to XTOOLS will be documented here.
 
 ---
 
-## [v2.4] - 2024-12-17
+## [v2.4] - 2025-12-18
 
 ### 🆕 New Features
 
@@ -89,7 +89,7 @@ All notable changes to XTOOLS will be documented here.
 
 ## [v2.3] - Previous Version
 
-- Original 65 modules
+- check at readme.md
 - Single interactive mode
 - License caching to license.dat
 - Optional version check
@@ -97,3 +97,4 @@ All notable changes to XTOOLS will be documented here.
 ---
 
 *For upgrade instructions, visit: https://forum.html-5.me*
+
