@@ -1,8 +1,8 @@
-# XTOOLS - Professional Security Toolkit v2.3
+# XTOOLS - Professional Security Toolkit v2.4
 
 **By XeyyzuV2** | **Forum**: [https://forum.html-5.me](https://forum.html-5.me)
 
-**61 Attack Modules** | Login Protected | Premium Interface
+**73 Attack Modules** | Login Protected | Premium Interface
 
 ---
 
@@ -56,9 +56,9 @@ We implement a tier-based access system to **prevent abuse and misuse** of power
 
 ---
 
-## �📊 Complete Module Reference (61 Modules)
+## 📊 Complete Module Reference (73 Modules)
 
-### 🎯 Bug Bounty (21)
+### 🎯 Bug Bounty (26)
 | Module | Description |
 |--------|-------------|
 | `xss` | XSS Scanner (DOM, Reflected, WAF bypass) |
@@ -148,6 +148,31 @@ We implement a tier-based access system to **prevent abuse and misuse** of power
 
 ---
 
+## 🔥 New in v2.4
+
+### 🆕 New Attack Modules (+8 Modules)
+- **Blind XSS Platform** (`blindxss`) - Callback-based XSS detection with webhook
+- **OAuth Scanner** (`oauth`) - OAuth/SSO misconfiguration, token leakage, PKCE bypass
+- **SSRF Exploitation Chain** (`ssrfchain`) - Cloud metadata extraction, internal recon
+- **Reverse Shell Generator** (`revshell`) - 12+ shell types, multi-encoding
+- **DNS Rebinding** (`dnsrebind`) - Bypass same-origin policy attacks
+- **WAF Bypass Generator** (`wafbypass`) - XSS/SQLi/LFI/RCE WAF evasion payloads
+- **Subdomain Fuzzer** (`subfuzz`) - High-speed permutation-based discovery
+- **Zero-Day Scanner** (`zeroday`) - CVE pattern detection (Log4Shell, Spring4Shell, etc.)
+
+### 🔧 Improvements
+- Module count increased from 65 to **73 modules**
+- Enhanced shell integration
+- Better tier enforcement
+
+### 🔒 Version Check System
+- **Mandatory version check** - XTOOLS now checks for updates at startup
+- **Internet required** - Offline usage blocked for security
+- **Force update** - Outdated versions cannot run until updated
+- **Admin control** - Server-side version control via API
+
+---
+
 ## 🔥 New in v2.3
 
 ### � Tier System
@@ -220,8 +245,8 @@ We implement a tier-based access system to **prevent abuse and misuse** of power
  ██╔██╗    ██║   ██║   ██║██║   ██║██║     ╚════██║
 ██╔╝ ██╗   ██║   ╚██████╔╝╚██████╔╝███████╗███████║
 ╚═╝  ╚═╝   ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝
-                v2.3 By XeyyzuV2
+                v2.4 By XeyyzuV2
 ```
 
-**65+ Modules | HWID Protected | Premium Security Toolkit**
+**73+ Modules | HWID Protected | Premium Security Toolkit**
 

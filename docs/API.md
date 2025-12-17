@@ -1,4 +1,4 @@
-# XTOOLS API Documentation v2.2
+# XTOOLS API Documentation v2.4
 
 ## Module Structure
 
@@ -14,25 +14,28 @@ def run(args, console):
     return {"result": "data"}
 ```
 
-## Available Modules (54)
+## Available Modules (73)
 
-### Bug Bounty (17)
-xss, ssrf, ssti, xxe, lfi, cors, jwt, redirect, crlf, clickjack, headers, params, takeover, smuggling, cachepoisoning, racecondition, deserialize
+### Bug Bounty (26)
+xss, ssrf, ssti, sqli, xxe, lfi, idor, cors, jwt, redirect, crlf, clickjack, headers, params, takeover, smuggling, cachepoisoning, racecondition, deserialize, hosthead, bucketscan, jssecrets, wpscan, blindxss, oauth, ssrfchain
 
-### Advanced (9)
-graphql, nosql, cmdi, prototype, websocket, vulnscan, wafdetect, sslscan, apifuzz
+### Advanced (13)
+graphql, nosql, cmdi, prototype, websocket, vulnscan, wafdetect, sslscan, apifuzz, bruteforce, masscan, wafbypass, zeroday
 
-### DDoS (9)
-http, http2, slowloris, rudy, udp, syn, tcp_ack, icmp, samp
+### Exploit Tools (4)
+revshell, obfuscate, genpayload, dnsrebind
+
+### Scanners (8)
+portscan, subnum, dirscan, apiscan, techscan, report, wordgen, subfuzz
+
+### DDoS (10)
+http, http2, api_stress, slowloris, rudy, udp, syn, tcp_ack, icmp, samp
 
 ### Amplification (7)
 dns, ntp, memcached, ssdp, snmp, ldap, chargen
 
-### Scanners (6)
-portscan, subnum, dirscan, apiscan, techscan, report
-
-### Recon (6)
-whois, ipinfo, dnsrecon, proxyfetch, health_check, genpayload
+### Recon (5)
+whois, ipinfo, dnsrecon, proxyfetch, health_check
 
 ## Shell Commands
 
@@ -45,4 +48,4 @@ whois, ipinfo, dnsrecon, proxyfetch, health_check, genpayload
 ```
 
 ---
-**XTOOLS v2.2 By XeyyzuV2**
+**XTOOLS v2.4 By XeyyzuV2**
