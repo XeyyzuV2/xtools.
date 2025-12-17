@@ -161,7 +161,6 @@ We implement a tier-based access system to **prevent abuse and misuse** of power
 - **Zero-Day Scanner** (`zeroday`) - CVE pattern detection (Log4Shell, Spring4Shell, etc.)
 
 ### 🔧 Improvements
-- Module count increased from 65 to **73 modules**
 - Enhanced shell integration
 - Better tier enforcement
 
@@ -190,15 +189,6 @@ We implement a tier-based access system to **prevent abuse and misuse** of power
 - Fixed SESSION TERMINATED after removing license cache
 - Fixed startup delay from API calls (reduced timeout)
 - Fixed HWID mismatch not properly exiting program
-
-### 📝 Changes
-- **shell.py** - Added dual-mode interface, tier animations, dynamic proxy/evasion status
-- **license.py** - Removed file caching, added in-memory session storage, improved error handling
-- **validate.py** - Added GUEST key auto-cleanup (5 min expiry)
-- **bot.py** - Updated !genkey with flexible duration format (m/h/d/y)
-- **version.py** - Updated to v2.4, changelog updated
-- **API.md** - Updated documentation for new modules and modes
-- **README.md** - Added v2.4 changelog, updated module count to 73
 
 ---
 
