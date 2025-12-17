@@ -165,11 +165,40 @@ We implement a tier-based access system to **prevent abuse and misuse** of power
 - Enhanced shell integration
 - Better tier enforcement
 
-### 🔒 Version Check System
-- **Mandatory version check** - XTOOLS now checks for updates at startup
-- **Internet required** - Offline usage blocked for security
-- **Force update** - Outdated versions cannot run until updated
-- **Admin control** - Server-side version control via API
+### 🎨 Dual-Mode Interface
+- **Interactive Menu** - Original numbered category selection
+- **Command Line Mode** - `XTOOLS >` prompt with commands: `help`, `list`, `use`, `info`, `menu`, `exit`
+
+### 👑 Tier Animations
+- **ROOT** - Crown banner, GOD MODE effects, "Welcome Elite Operator"
+- **USER** - VIP diamond banner, module access list
+- **GUEST** - Basic banner with upgrade notice
+
+### 🔐 Security Enhancements
+- **No license cache** - Keys stored in memory only (not saved to disk)
+- **GUEST key auto-expire** - Free keys deleted 5 minutes after creation
+- **Mandatory internet** - Version check requires online connection
+- **Forced updates** - Outdated versions blocked until updated
+
+### 🤖 Discord Bot Updates
+- **!genkey @user [tier] [duration]** - Flexible format: `30m`, `12h`, `7d`, `1y`
+- Help embed when no arguments provided
+
+### 🐛 Bug Fixes
+- Fixed license tier resetting to 'guest' after login
+- Fixed proxy/evasion status always showing OFF
+- Fixed SESSION TERMINATED after removing license cache
+- Fixed startup delay from API calls (reduced timeout)
+- Fixed HWID mismatch not properly exiting program
+
+### 📝 Changes
+- **shell.py** - Added dual-mode interface, tier animations, dynamic proxy/evasion status
+- **license.py** - Removed file caching, added in-memory session storage, improved error handling
+- **validate.py** - Added GUEST key auto-cleanup (5 min expiry)
+- **bot.py** - Updated !genkey with flexible duration format (m/h/d/y)
+- **version.py** - Updated to v2.4, changelog updated
+- **API.md** - Updated documentation for new modules and modes
+- **README.md** - Added v2.4 changelog, updated module count to 73
 
 ---
 
